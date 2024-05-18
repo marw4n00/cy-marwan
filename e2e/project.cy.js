@@ -213,5 +213,5 @@ describe('Visit Swag labs', () => {
     cy.get ('.inventory_item_img') .eq (0).click()
     cy.get('.bm-burger-button').click()
     cy.get('.bm-item.menu-item').eq(2).click()
-  })
+  }) //testing branching
 })
